@@ -1,0 +1,42 @@
+[
+  {
+    "name": "SJCE Official Placement Portal",
+    "desc": "Created a new Placement Portal for our college. Currently used by 1200+ students of our college. Tech Stack - React, FastAPI",
+    "image": "college",
+    "category": "mern",
+    "links": {
+      "view": "https://www.sjceplacements.org/",
+      "code": "https://www.sjceplacements.org/"
+    }
+  },
+  {
+    "name": "Geek Hub",
+    "desc": "MERN Stack Website where users can put the resources they used to Learn to help other peers.",
+    "image": "geekhub",
+    "category": "mern",
+    "links": {
+      "view": "http://geek-hub.tech/",
+      "code": "https://github.com/NamanOli/Geek-Hub"
+    }
+  },
+  {
+    "name": "Tee-Tell",
+    "desc": "T-Shirt Selling Website Made using MERN Stack.",
+    "image": "tshirt",
+    "category": "mern",
+    "links": {
+      "view": "https://github.com/NamanOli/Tee-Tell",
+      "code": "https://github.com/NamanOli/Tee-Tell"
+    }
+  },
+  {
+    "name": "Sorting Visualizer",
+    "desc": "Created this project to visualize how various Sorting Algorithms works. Learned about DOM Manipulation and Timer Function in Javascript.",
+    "image": "sorting",
+    "category": "android",
+    "links": {
+      "view": "https://namanoli.github.io/Sorting-Visualizer/",
+      "code": "https://github.com/NamanOli/Sorting-Visualizer"
+    }
+  }
+]

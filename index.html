@@ -1,119 +1,366 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords"
-        content="HTML, CSS, JavaScript, Portfolio, Naman Oli,Naman,Oli, Web developer">
-    <meta name="description" content="Web Development Portfolio">
-    <meta name="author" content="Naman Oli">
-    <meta name="Copyright" content="Naman Oli">
-    <title>Naman Oli | Home</title>
-    <link rel="icon" href="images/favicon.png" type="image/png" sizes="16x16">
-    <link rel="stylesheet" href="styles/stylesheet.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
-    <script defer src="./scripts/theme.js"></script>
+    <meta name="keywords" content="naman oli, portfolio, naman, full stack dev, personal portfolio lifecodes, portfolio design, portfolio website, personal portfolio" />
+    <meta name="description" content="Welcome to Naman's Portfolio." />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Favicon -->
+    <link id='favicon' rel="shortcut icon" href="./assets/images/hero.svg" type="image/x-png">
+    <title>Portfolio | Naman Oli</title>
 </head>
+<body >
 
-<body class="homepage">
-    <nav class="navigation container">
-        <div class="flex-container">
-            <b class="nav-brand">Naman Oli</b>
-            <i class="btn-theme far fa-moon"></i>
-        </div>
-        <ul class="list-non-bullet nav-pills flex-mobile">
-            <li class="list-item-inline">
-                <a aria-label="home" class="link link-active" href="/"><i class="fas fa-home"></i><span
-                        class="web-desc"> Home</span></a>
-            </li>
-            <li class="list-item-inline">
-                <a aria-label="projects" class="link" href="/projects.html"><i class="fas fa-tablet-alt"></i><span
-                        class="web-desc">
-                        Projects</span></a>
-            </li>
-            <li class="list-item-inline">
-                <a aria-label="blogs" class="link" href="/blogs.html"><i class="fas fa-newspaper"></i><span
-                        class="web-desc">
-                        Blogs</span></a>
-            </li>
+<!-- pre loader -->
+<!-- <div class="loader-container">
+  <img draggable="false" src="./assets/images/preloader.gif" alt="">
+</div> -->
+
+<!-- navbar starts -->
+<header>
+
+        <a href="/" class="logo"><img src="./assets/images/coding.png" /> Naman</a>
+
+        <div id="menu" class="fas fa-bars"></div>
+        <nav class="navbar">
+            <ul>
+            <li><a class="active" href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+</header>
+<!-- navbar ends -->
+
+
+<!-- hero section starts -->
+<section class="home" id="home">
+    <div id="particles-js"></div>
+
+    <div class="content">
+    <h2>Hi There,<br/> I'm Naman <span>Oli</span></h2>
+    <p>i am into <span class="typing-text"></span></p>
+    <a href="#about" class="btn"><span>About Me</span>
+      <i class="fas fa-arrow-circle-down"></i>
+    </a>
+    <div class="socials">
+        <ul class="social-icons">
+          <li><a class="linkedin" aria-label="LinkedIn" href="https://www.linkedin.com/in/naman-oli-01627518b/" target="_blank"><i class="fab fa-linkedin"></i></a></li> 
+          <li><a class="github" aria-label="GitHub" href="https://github.com/NamanOli" target="_blank"><i class="fab fa-github"></i></a></li>
+          <li><a class="twitter" aria-label="Twitter" href="https://twitter.com/naman_dev1" target="_blank"><i class="fab fa-twitter"></i></a></li>
         </ul>
-    </nav>
-    <div class="content-container">
-        <header class="hero">
-            <img class="hero-img" src="images/programmer.svg" alt="hero" />
-            <h1 class="hero-heading">Hello World, I'm <span class="heading-inverted">Naman Oli</span></h1>
-            <h2 class="hero-subheading">Aspiring Web Developer </h2>
-        </header>
+      </div>
+    </div>
+<div class="image">
+    <img draggable="false" class="tilt" src="./assets/images/hero.svg" alt="">
+</div>
+</section>
+<!-- hero section ends -->
 
-        <section class="section off-white container-center">
-            <div class="container ">
-                <h1>Technologies</h1>
-                <p>I'm a Web Developer who thrives to learn and develop <strong>new skills</strong>. I love to learn new technologies and implement it on my way, I have explored the following technologies:</p>
-                <div class="grid-container">
-                    <span><i class="fab fa-html5"></i> HTML</span>
-                    <span><i class="fab fa-css3-alt"> </i> CSS</span>
-                    <span><i class="fab fa-js-square"> </i> JavaScript</span>
-                    <span><i class="fab fa-react"></i> React</span>
-                    <span><i class="fab fa-node-js"></i> TypeScript</span>
-                    <span><i class="fab fa-node"></i> NodeJS</span>
-                    <span><i class="fas fa-database"></i> MongoDB</span>
-                    <span><i class="fab fa-python"></i> Python</span>
-                </div>
-                <p>This is just the start of my journey. Still exploring </p>
+
+<!-- about section starts -->
+<section class="about" id="about">
+    <h2 class="heading"><i class="fas fa-user-alt"></i> About <span>Me</span></h2>
+    
+    <div class="row">
+
+    <div class="image">
+        <img draggable="false" class="tilt" src="./assets/images/profilepic.jpg" alt="">
+    </div>
+    <div class="content">
+        <h3>I'm Naman</h3>
+        <span class="tag">Web Developer</span>
+        
+        <p>I am a Web developer and a Programmer based in Mysore, India. 
+          I am a Computer Science undergraduate from SJCE.
+          I am very passionate about improving my coding skills & developing applications & websites.
+          I build WebApps and Websites using MERN Stack.
+          Dedicated problem solver with attention to detail and a team player. 
+        </p>
+        
+        <div class="box-container">
+            <div class="box">
+              <p><span> College: </span> SJCE</p>
+              <p><span> phone : </span> +91 895-790-0554</p>
             </div>
-        </section>
-
-        <section class="section full-white container-center">
-            <div class="container">
-                <h1>Projects</h1>
-                <p> Programming is Fun. I'd like to showcase my work and thus, you can see my
-                    projects
-                    hosted online. Checkout my <a aria-label="github"
-                    class="web-link" rel="noopener noreferrer" target="_blank" href="https://github.com/NamanOli">
-                    Github
-                </a> to get updates about my latest projects and development.</p>
-
-                <a class="link link-primary txt-highlight" href="/projects.html">View All</a>
-
+            <div class="box">
+              <p><span> email : </span> namanoli111@gmail.com</p>
+              <p><span> place : </span> Mysore, India - 570006</p>
             </div>
-        </section>
-
-        <section class="section off-white container-center">
-            <div class="container">
-                <h1>Blogs</h1>
-                <p>Share your knowledge. It’s a way to achieve immortality.<br /> I have recently started working on
-                    some
-                    technical and non technical blogs. I like to document my journey of learning. </p>
-                <a class="link link-secondary txt-highlight" href="/blogs.html">Read Blogs</a>
-            </div>
-        </section>
+        </div>
+        
+        <div class="resumebtn">
+            <a href="https://drive.google.com/file/d/1-AH4DvZwMYh0OfN-A78bM5RIymc7TflM/view" target="_blank" class="btn"><span>Resume</span>
+                <i class="fas fa-chevron-right"></i>
+            </a>
+        </div>
 
     </div>
-    <footer class="footer">
-        <div class="footer-header">Connect with me</div>
-        <ul class="social-links list-non-bullet">
-            <li class="list-item-inline">
-                <a aria-label="github" class="link" href="https://github.com/NamanOli" rel="noopener noreferrer"
-                    target="_blank">
-                    <i class="fab fa-lg fa-github"></i><span class="web-desc"> Github</span>
-                </a>
-            </li>
-            <li class="list-item-inline">
-                <a aria-label="twitter" class="link" rel="noopener noreferrer" target="_blank"
-                    href="https://twitter.com/naman_dev1">
-                    <i class="fab fa-lg fa-twitter"></i><span class="web-desc"> Twitter</span>
-                </a>
-            </li>
-            <li class="list-item-inline">
-                <a aria-label="linkedin" class="link" rel="noopener noreferrer" target="_blank"
-                    href="https://www.linkedin.com/in/naman-oli-01627518b/">
-                    <i class="fab fa-lg fa-linkedin-in"></i><span class="web-desc"> Linkedin</span>
-                </a>
-            </li>
-        </ul>
-        <small>Copyright © 2022 Naman Oli</small>
-    </footer>
-</body>
+    </div>
+</section>
+<!-- about section ends -->
 
+<!-- skills section starts -->
+<section class="skills" id="skills">
+
+    <h2 class="heading"><i class="fas fa-laptop-code"></i> Skills & <span>Abilities</span></h2>
+
+    <div class="container">
+          <div class="row" id="skillsContainer">
+
+
+      </div>
+</div>
+</section>
+<!-- skills section ends -->
+
+
+<!-- education section starts -->
+<section class="education" id="education">
+
+  <h1 class="heading"><i class="fas fa-graduation-cap"></i> My <span>Education</span></h1>
+
+    <p class="qoute">Education is not Mugging up the facts, its about implementing what you learned to help others.</p>
+
+    <div class="box-container">
+
+    <div class="box">
+        <div class="image">
+        <img draggable="false" src="./assets/images/educat/college.jpg" alt="">
+        </div>
+        <div class="content">
+        <h3>Bachelors of Engineering in Computer Science</h3>
+        <p>Sri Jayachamrajendra College of Engineering, Mysore || SJCE</p>
+        <h4>2019-2023 | Pursuing</h4>
+        </div>
+    </div>
+
+    <div class="box">
+      <div class="image">
+      <img draggable="false" src="./assets/images/educat/school.jpg" alt="">
+      </div>
+      <div class="content">
+      <h3>Science | Physical Education</h3>
+      <p>City Montessorie School, Lucknow | ICSE</p>
+      <h4>2017 - 2019 | Completed</h4>
+      </div>
+    </div>
+
+</div>
+</section>
+<!-- education section ends -->
+
+
+<!-- work project section starts -->
+<section class="work" id="work">
+
+  <h2 class="heading"><i class="fas fa-laptop-code"></i> Projects <span>Made</span></h2>
+
+  <div class="box-container">
+
+
+</div>
+
+<div class="viewall">
+  <a href="/projects" class="btn"><span>View All</span>
+    <i class="fas fa-arrow-right"></i>
+</a>
+</div>
+
+</section>
+<!-- work project section ends -->
+
+<!-- experience section starts -->
+<section class="experience" id="experience">
+
+  <h2 class="heading"><i class="fas fa-briefcase"></i> Experience </h2>
+
+  <div class="timeline">
+
+    <div class="container right">
+      <div class="content">
+        <div class="tag">
+          <h2>Web Developer</h2>
+        </div>
+        <div class="desc">
+            <h3>The Sparks Foundation</h3>
+            <p>Jul 2021 - Aug 2021</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container left">
+      <div class="content">
+        <div class="tag">
+          <h2>Web Developer</h2>
+        </div>
+        <div class="desc">
+            <h3>TEN: Labs | Internship</h3>
+            <p>Aug 2021 - Nov 2021</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container right">
+      <div class="content">
+        <div class="tag">
+          <h2>Web Developer</h2>
+        </div>
+        <div class="desc">
+            <h3>Placement Cell SJCE | Full Time</h3>
+            <p>Dec 2021 - Apr 2022</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container left">
+      <div class="content">
+        <div class="tag">
+          <h2>Intern</h2>
+        </div>
+        <div class="desc">
+            <h3>MakeMyTrip | Internship</h3>
+            <p>April 2022 - Present</p>
+        </div>
+      </div>
+    </div>
+
+    
+  </div>
+
+  <!-- <div class="morebtn">
+    <a href="/experience" class="btn"><span>View All</span>
+      <i class="fas fa-arrow-right"></i>
+  </a>
+  </div> -->
+
+</div>
+
+</section>
+<!-- experience section ends -->
+
+<!-- contact section starts -->
+<section class="contact" id="contact">
+  
+  <h2 class="heading"><i class="fas fa-headset"></i> Get in <span>Touch</span></h2>
+
+  <div class="container">
+    <div class="content">
+      <div class="image-box">
+        <img draggable="false" src="./assets/images/contact1.png" alt="">
+      </div>
+    <form id="contact-form">
+      
+      <div class="form-group">
+        <div class="field">
+          <input type="text" name="name" placeholder="Name" required>
+          <i class='fas fa-user'></i>
+        </div>
+        <div class="field">
+          <input type="text" name="email" placeholder="Email" required>
+          <i class='fas fa-envelope'></i>
+        </div>
+        <div class="field">
+          <input type="text" name="phone" placeholder="Phone">
+          <i class='fas fa-phone-alt'></i>
+        </div>
+        <div class="message">
+        <textarea placeholder="Message" name="message" required></textarea>
+        <i class="fas fa-comment-dots"></i>
+        </div>
+        </div>
+      <div class="button-area">
+        <button type="submit">
+          Submit <i class="fa fa-paper-plane"></i></button>
+      </div>
+    </form>
+  </div>
+  </div>
+</section>
+<!-- contact section ends -->
+
+
+<!-- footer section starts -->
+<section class="footer">
+
+  <div class="box-container">
+
+      <div class="box">
+          <h3>Naman's Portfolio</h3>
+          <p>Thank you for visiting my personal portfolio website. Connect with me over socials. <br/> </p>
+      </div>
+
+      <div class="box">
+          <h3>quick links</h3>
+          <a href="#home"><i class="fas fa-chevron-circle-right"></i> home</a>
+          <a href="#about"><i class="fas fa-chevron-circle-right"></i> about</a>
+          <a href="#skills"><i class="fas fa-chevron-circle-right"></i> skills</a>
+          <a href="#education"><i class="fas fa-chevron-circle-right"></i> education</a>
+          <a href="#work"><i class="fas fa-chevron-circle-right"></i> work</a>
+          <a href="#experience"><i class="fas fa-chevron-circle-right"></i> experience</a>
+      </div>
+
+      <div class="box">
+          <h3>contact info</h3>
+          <p> <i class="fas fa-phone"></i>+91 895-790-0554</p>
+          <p> <i class="fas fa-envelope"></i>namanoli111@gmail.com</p>
+          <p> <i class="fas fa-map-marked-alt"></i>Lucknow, India-226010</p>
+          <div class="share">
+
+              <a href="https://www.linkedin.com/in/naman-oli-01627518b/" class="fab fa-linkedin" aria-label="LinkedIn" target="_blank"></a>
+              <a href="https://github.com/NamanOli" class="fab fa-github" aria-label="GitHub" target="_blank"></a>
+              <a href="mailto:namanoli111@gmail.com" class="fas fa-envelope" aria-label="Mail" target="_blank"></a>
+              <a href="https://twitter.com/naman_dev1" class="fab fa-twitter" aria-label="Twitter" target="_blank"></a>
+              <a href="https://t.me/lifecode5" class="fab fa-telegram-plane" aria-label="Telegram" target="_blank"></a>
+          </div>
+      </div>
+  </div>
+
+  <h1 class="credit">Designed with <i class="fa fa-heart pulse"></i> by <a href="https://www.linkedin.com/in/naman-oli-01627518b/" target="_blank"> Naman Oli</a></h1>
+
+</section>
+<!-- footer section ends -->
+
+
+<!-- scroll top btn -->
+<a href="#home" aria-label="ScrollTop" class="fas fa-angle-up" id="scroll-top"></a>
+<!-- scroll back to top -->
+
+
+<!-- ==== ALL MAJOR JAVASCRIPT CDNS STARTS ==== -->
+<!-- jquery cdn -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- typed.js cdn -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js" integrity="sha512-1KbKusm/hAtkX5FScVR5G36wodIMnVd/aP04af06iyQTkD17szAMGNmxfNH+tEuFp3Og/P5G32L1qEC47CZbUQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- particle.js links -->
+<script src="./assets/js/particles.min.js"></script>
+<script src="./assets/js/app.js"></script>
+
+<!-- vanilla tilt.js links -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js" integrity="sha512-SttpKhJqONuBVxbRcuH0wezjuX+BoFoli0yPsnrAADcHsQMW8rkR84ItFHGIkPvhnlRnE2FaifDOUw+EltbuHg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- scroll reveal anim -->
+<script src="https://unpkg.com/scrollreveal"></script>
+
+<script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"
+    ></script>
+
+<!-- ==== ALL MAJOR JAVASCRIPT CDNS ENDS ==== -->
+
+<script src="./assets/js/script.js"></script>
+
+</body>
 </html>
